@@ -1,21 +1,19 @@
 <template>
-  <div id="app">
+  <div id="layout">
     <router-view />
   </div>
 </template>
 
 <script>
-export default {
-  name: 'App',
-  components: {
 
+
+export default {
+  name: 'Layout',
+  components: {
+    
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-}
-body{margin: 0;padding: 0;}
 </style>
